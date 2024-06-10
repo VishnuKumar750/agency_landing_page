@@ -470,6 +470,9 @@ footer > div > ul {
         grid-row: 1;
     }
 
+    .testimony {
+        margin: 4em 0 2em 0;
+    }
 
     .testi > p {
         width: 13.5em;
@@ -508,8 +511,15 @@ footer > div > ul {
 }
 
 @media  screen and (min-width: 1440px) {
+    .testimony {
+        margin: 4em 0 2em 0;
+    }
     .testimony > div {
-        width: 68em;
+        width: 74em;
+    }
+
+    .testi > p {
+        width: 22em;
     }
 
     .item1 {
